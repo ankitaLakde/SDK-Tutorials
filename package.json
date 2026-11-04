@@ -1,0 +1,20 @@
+{
+  "name": "sdk-tutorials",
+  "version": "1.0.0",
+  "description": "Simple examples of using the OpenAI, Anthropic (Claude) and Google Gemini SDKs in Node.js",
+  "type": "module",
+  "scripts": {
+    "openai": "node openai-sdk.js",
+    "claude": "node claude-sdk.js",
+    "gemini": "node gemini-sdk.js",
+    "structured": "node structure-sdk.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@google/genai": "^2.30.0",
+    "dotenv": "^18.0.9",
+    "openai": "^6.49.0",
+    "zod": "^4.6.7"
+  }
+}
